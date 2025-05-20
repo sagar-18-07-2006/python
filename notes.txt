@@ -1,0 +1,10 @@
+module is a file filled with special codes written by someone else and can be imported and directly used in your programm
+pip is the keyword to install modules
+ modules are of two types
+Built in preinstalled 
+external modules    need to install using pip 
+we can use python as calculator 
+enter python in terminal this open repl(read evalvulate print loop ')
+import is the keyword to use  a module in a code
+#(pound ) is for one liner comment 
+"""             """   between those  everytthing will be commente d means multi line comment 
