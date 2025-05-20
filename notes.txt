@@ -8,3 +8,4 @@ enter python in terminal this open repl(read evalvulate print loop ')
 import is the keyword to use  a module in a code
 #(pound ) is for one liner comment 
 """             """   between those  everytthing will be commente d means multi line comment and  can alo be used to print multi line 
+rule for having a name of avariable
