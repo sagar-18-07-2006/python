@@ -12,4 +12,10 @@ rule for having a name of avariable
 a variable name can conatain  alphabets ,underscore and numbers
 a variable name can only start with alphabets and undersvores
  no whitee spaces are allowed
+ Data types 
+ 1 integer 
+ 2 float 
+ 3 strings 
+ 4 boolean 
+ 5 none
  
