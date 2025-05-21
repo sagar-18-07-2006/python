@@ -18,3 +18,10 @@ print((d))# comparission operators always return boolean
 #logical Operators
 e =True or False
 print(e)
+
+
+"""
+or 
+and 
+not
+"""
