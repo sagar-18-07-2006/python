@@ -19,3 +19,5 @@ a variable name can only start with alphabets and undersvores
  4 boolean 
  5 none
  
+ by default input is type strings
+ 
