@@ -34,3 +34,5 @@ or from end
 -1,-2,-3,-4,-5,-6.......
 slice string name
 sl= name[ind_start:ind_end] start from ind_start excluding ind_end****important
+if ind_start not mentioned it means it is 0
+if ind_end is not mentioned it means it is length
