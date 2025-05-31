@@ -21,3 +21,16 @@ a variable name can only start with alphabets and undersvores
  
  by default input is type strings
  a**b  will multiply a b times
+ ways to write a string 
+
+ "anything between them in single line"
+'anything between them in single line'
+"""anything between them in multi line line"""
+string is immutable
+len(string) will give string size 
+we can do by start 
+0,1,2,3,4,5,6..
+or from end 
+-1,-2,-3,-4,-5,-6.......
+slice string name
+sl= name[ind_start:ind_end] start from ind_start excluding ind_end****important
