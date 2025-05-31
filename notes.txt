@@ -20,4 +20,4 @@ a variable name can only start with alphabets and undersvores
  5 none
  
  by default input is type strings
- 
+ a**b  will multiply a b times
