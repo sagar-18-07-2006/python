@@ -45,4 +45,6 @@ x=4334;
 print (id(x))
 will give address in memory address of system where x uis stored 
 if you change value of x address will changed 
-     
+     in print if you write 
+     print("sagar",221,2112,4334,5454,sep='  ',end='\n\n\n')print("sagar",221,2112,4334,5454,sep='  ',end='\n\n\n')\
+     by default print seperation between variable and end after  a print we can change
