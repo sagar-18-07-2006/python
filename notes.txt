@@ -41,3 +41,6 @@ a=n[1:7:3]
 it will first consider slicing value from 1:7
 then take first and 3rd value including the taken one 
 write help("keywords") in terminal to get name of reserved keywords
+x=4334;
+print (id(x))
+will give address in memory address of system where x uis stored 
