@@ -44,3 +44,5 @@ write help("keywords") in terminal to get name of reserved keywords
 x=4334;
 print (id(x))
 will give address in memory address of system where x uis stored 
+if you change value of x address will changed 
+     
