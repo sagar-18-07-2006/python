@@ -74,3 +74,15 @@ if you change value of x address will changed
      ip not op
      0  not  1
      1  not  0
+   special operators
+   in used to chechk something is in a variable or not
+   name="sagar"
+print(("r" in name))
+give true
+depends on small and large letter
+juggling of words is not allowed
+
+is
+both the objeect are at a same memmmory location
+id are same
+of heap
