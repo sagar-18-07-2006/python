@@ -86,3 +86,6 @@ is
 both the objeect are at a same memmmory location
 id are same
 of heap
+if elif else
+
+maintainn indentation 
