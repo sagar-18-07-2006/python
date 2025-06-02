@@ -57,3 +57,20 @@ if you change value of x address will changed
      **= 
      //=
      %=
+     logical operators
+     and
+     ip1 ip2 and op
+     1   1   and  1
+     1   0   and  0
+     0   1   and  0
+     0   0   and  0
+     or
+     ip1 ip2 and op
+     1   1   and  1
+     1   0   and  1
+     0   1   and  1
+     0   0   and  0
+     not
+     ip not op
+     0  not  1
+     1  not  0
