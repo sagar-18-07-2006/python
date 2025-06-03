@@ -146,3 +146,12 @@ print("Hey my name is {} and my age is {}".format(name,age) )
 .format {}(placeholder) ka sequence mien dalenge
 print(f"Hey my name is {name} and my age is {age}" )
 we can do like that too
+ 
+ by + sign we can cotenate in one
+ A set in Python is a built-in data structure that:
+
+Stores only unique elements (no duplicates).
+
+Is unordered.
+
+Supports fast lookups and length queries.
