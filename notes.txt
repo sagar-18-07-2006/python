@@ -126,3 +126,11 @@ print(n[-1:-11:-1])
 gives 9876543210
 where n = "01234567889" 
 Strings methods 
+capitalize make 1st letter to capital but not save in string 
+title will capital every first letter of word   but not save in string 
+if you want to change it in stribg 
+st =st.title() you have to do like this 
+upper convert all letters to upper characters
+find it will  give you lowest index where that sub string is found if not found return -1
+index it will  give you lowest index where that sub string is found if not found raise valueerror
+count it will  give you total number  where that sub string is found
