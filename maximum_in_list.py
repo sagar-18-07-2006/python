@@ -5,3 +5,5 @@ for i in marks:
     if i>highest:
         highest =i
 print("highest marks is",highest)
+print(list(range(10,1,-1)))
+print(list(range(6)))

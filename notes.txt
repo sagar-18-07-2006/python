@@ -90,3 +90,28 @@ if elif else
 
 maintainn indentation 
 otherwise errors will pop up
+range function
+range(start,stop,jump)
+range(n) means only end and jumo is 1 
+end is not included but start is included
+list(range(a,b,c) will givee array of range)
+we ccan have print(list(range(10,1,-1)))
+to get [10, 9, 8, 7, 6, 5, 4, 3, 2]
+for i in range(1,11):
+    print(i,sep=', ')
+range is always iterable 
+whole loop once is iteration 
+i is iterator
+pass willl fill place in a loop not doing anything
+string is a 
+sequence of a chracter
+  charachters can be 
+  alphabet 
+  0-9
+  white spaces 
+  special characters 
+  A-Z
+  65-90
+  a-z
+  97-122
+  unicode characters
