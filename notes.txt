@@ -134,3 +134,15 @@ upper convert all letters to upper characters
 find it will  give you lowest index where that sub string is found if not found return -1
 index it will  give you lowest index where that sub string is found if not found raise valueerror
 count it will  give you total number  where that sub string is found
+replace change that sub string with new one 
+split will create at whitespaces by default but we can change it to a sub string
+isupper will give bollean reasponse true if all letters are capital
+islowewr will give bollean reasponse true if all letters are not capital
+isNUMERIC will give bollean reasponse true if all CHRACTERS ARE isNUMERIC foralpha numeric it give false
+isalpha gives true if all values are alpha white spaces chracters are not allowed
+
+formatting 
+print("Hey my name is {} and my age is {}".format(name,age) )
+.format {}(placeholder) ka sequence mien dalenge
+print(f"Hey my name is {name} and my age is {age}" )
+we can do like that too
