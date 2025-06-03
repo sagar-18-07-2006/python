@@ -115,3 +115,14 @@ sequence of a chracter
   a-z
   97-122
   unicode characters
+  ord give you uicode  value of function
+  chr gives yu character associcated with a integer vvvvvvalue
+  indexing in a strring
+  start with 0 from start
+  whitespaces are also counted 
+  from end -1,-2,-3,-4,.....len will give length of a function
+  
+print(n[-1:-11:-1])
+gives 9876543210
+where n = "01234567889" 
+Strings methods 
