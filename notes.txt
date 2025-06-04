@@ -155,3 +155,17 @@ Stores only unique elements (no duplicates).
 Is unordered.
 
 Supports fast lookups and length queries.
+
+
+data structureuse when data stored in a structure
+organizing processing retrieving and storing data
+name os students  
+list /array  Are data structure
+dicctionaries  Are data structure
+sets   Are data structure
+tupels  Are data structure
+  Are data structure
+
+
+  list
+   ordered collectioin of data
