@@ -183,3 +183,6 @@ m=list()  name defined only
  list in built methods
 count it will  give you total number  where that sub string is found
 index it will  give you lowest index where that sub string is found if not found raise valueerror
+pop deletes last element of a list
+we can store that value in 
+drop=name.pop()
