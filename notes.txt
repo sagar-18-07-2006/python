@@ -186,3 +186,103 @@ index it will  give you lowest index where that sub string is found if not found
 pop deletes last element of a list
 we can store that value in 
 drop=name.pop()
+Let's break down the code and explain step by step what it's doing:
+
+---
+
+for multi type list sorting
+
+
+### ✅ **Original List**:
+
+```python
+name = ["dgb656,", 244, True, False, 174786, "ss"]
+```
+
+This list contains **mixed data types**:
+
+* Strings: `"dgb656,"`, `"ss"`
+* Integers: `244`, `174786`
+* Booleans: `True`, `False`
+
+---
+
+### ✅ **Separate and Sort Strings**:
+
+```python
+strings = sorted([x for x in name if isinstance(x, str)])
+```
+
+This is a **list comprehension**:
+
+* `x for x in name` — loops over each element in `name`
+* `if isinstance(x, str)` — keeps only the strings
+* `sorted(...)` — sorts the resulting string list alphabetically
+
+**Result**:
+
+```python
+strings = ['dgb656,', 'ss']
+```
+
+---
+
+### ✅ **Separate and Sort Numbers (int, float, bool)**:
+
+```python
+numbers = sorted([x for x in name if isinstance(x, (int, float, bool))])
+```
+
+This does the same as above, but filters for numbers:
+
+* `isinstance(x, (int, float, bool))` — keeps integers, floats, or booleans
+
+**Note**: In Python, `bool` is a subclass of `int`:
+
+* `False` behaves like `0`
+* `True` behaves like `1`
+
+**List before sorting**: `[244, True, False, 174786]`
+Interpreted as: `[244, 1, 0, 174786]`
+Sorted: `[False, True, 244, 174786]`
+
+**Result**:
+
+```python
+numbers = [False, True, 244, 174786]
+```
+
+---
+
+### ✅ **Combine and Print**:
+
+```python
+for i in strings + numbers:
+    print(i)
+```
+
+* `strings + numbers` — combines the two lists
+* `for i in ...: print(i)` — prints each element on a new line
+
+---
+
+### ✅ **Final Output**:
+
+```
+dgb656,
+ss
+False
+True
+244
+174786
+```
+
+---
+
+### 🔁 Summary:
+
+* You split the mixed list into two: strings and numbers.
+* You sorted each separately.
+* Then you printed them in the order: strings first, numbers second.
+
+Let me know if you want to reverse the order, format the output differently, or sort all as strings instead.
