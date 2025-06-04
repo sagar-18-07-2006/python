@@ -286,3 +286,10 @@ True
 * Then you printed them in the order: strings first, numbers second.
 
 Let me know if you want to reverse the order, format the output differently, or sort all as strings instead.
+
+
+insert
+list.insert(index,what you want to insert)
+list.appened(wil add this thing to last of a list ) 
+append ing a list give as single element 
+so for taking it as a diffrent diffrent we ise extend 
