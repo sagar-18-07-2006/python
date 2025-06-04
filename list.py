@@ -86,3 +86,7 @@ for l1 it will be zero
 for l2 it will be 1
 for l3 it will be 2"""
 print(l[0][0])
+for i in l:
+    for j in i:
+        print(j)
+    print()
