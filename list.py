@@ -90,3 +90,18 @@ for i in l:
     for j in i:
         print(j)
     print()
+
+q=[]
+# i=0
+for i in range(100):
+    q.append(i)
+    # i+=1
+i=0
+for i in q:
+    print(i)
+    i+=1
+
+#list compherseion
+s=[(i ** 100) for i in range (10)]
+for i in s:
+    print(i)
