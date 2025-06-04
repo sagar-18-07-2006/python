@@ -169,3 +169,10 @@ tupels  Are data structure
 
   list
    ordered collectioin of data
+   list are mutable 
+   can contain multiple type of data
+   list are iterable
+   l=[46,989684,66,6,66,42,644]  pre defined list 
+m=list()  name defined only
+ 
+ 
