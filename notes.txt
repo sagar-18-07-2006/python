@@ -123,6 +123,8 @@ sequence of a chracter
   from end -1,-2,-3,-4,.....len will give length of a function
   
 print(n[-1:-11:-1])
+n[::] give same string
+n[::-1] give reverse string 
 gives 9876543210
 where n = "01234567889" 
 Strings methods 
@@ -133,7 +135,6 @@ st =st.title() you have to do like this
 upper convert all letters to upper characters
 find it will  give you lowest index where that sub string is found if not found return -1
 index it will  give you lowest index where that sub string is found if not found raise valueerror
-count it will  give you total number  where that sub string is found
 replace change that sub string with new one 
 split will create at whitespaces by default but we can change it to a sub string
 isupper will give bollean reasponse true if all letters are capital
@@ -174,5 +175,11 @@ tupels  Are data structure
    list are iterable
    l=[46,989684,66,6,66,42,644]  pre defined list 
 m=list()  name defined only
- 
- 
+ iterable 
+ mutable
+ acssesible like an array 
+ l[::]  give you same list 
+ l[::-1] give you reverse list 
+ list in built methods
+count it will  give you total number  where that sub string is found
+index it will  give you lowest index where that sub string is found if not found raise valueerror
