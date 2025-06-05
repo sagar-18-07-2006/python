@@ -293,3 +293,7 @@ list.insert(index,what you want to insert)
 list.appened(wil add this thing to last of a list ) 
 append ing a list give as single element 
 so for taking it as a diffrent diffrent we ise extend 
+tuple.python
+
+tuples are immutable
+frozen data once created not to change
