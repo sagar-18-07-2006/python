@@ -105,3 +105,6 @@ for i in q:
 s=[(i ** 100) for i in range (10)]
 for i in s:
     print(i)
+s=[(i ** 100) for i in range (10)]
+for i in s:
+    print(i)
