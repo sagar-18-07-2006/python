@@ -298,3 +298,5 @@ tuple.python
 tuples are immutable
 frozen data once created not to change
 The bool() function will always return True unless the variable is empty, 0, None or False.
+Lambda functions, also known as anonymous functions, are small, inline functions that can have any number of arguments but only one expression.
+lambda [arguments]: [expression] 
