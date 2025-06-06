@@ -1,3 +1,5 @@
+#all triangles pattern
+
 w=int(input("enter height"))
 i=1
 for i in range(1,w+1):
