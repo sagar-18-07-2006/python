@@ -313,3 +313,8 @@ They are limited to a single expression, which can make complex operations diffi
 They can be harder to debug due to their anonymous nature.
 Constructors
 Constructors are special functions that are executed when an object is instantiated. In Python, the __init__() function is used as the constructor and is called when creating an object.
+
+
+strings are immmutable you can 't vhange them by running a function 
+unill unless 
+string = string.function()
