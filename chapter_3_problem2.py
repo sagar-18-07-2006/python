@@ -1,0 +1,5 @@
+a =input("name of you")
+date = input("enter date in DD/MM/YYYY format")
+print(f"Dear {a}")
+print("You are selected")
+print(f"{date}")
