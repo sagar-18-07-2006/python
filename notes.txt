@@ -337,3 +337,4 @@ l1.remove(value )
 if valueis not present it will give value error 
 same as list but immutable
 if you try to change it it will give v alue error
+IN LIST THERE IS A FUNCTION CALLED SUM WHICH SUM IT'S values  
