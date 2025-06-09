@@ -322,7 +322,7 @@ list and tuples
 list is a set of container to store set of any value 
 lists are mutable can be index as a string
 #methods
-append add member at lastsort
+append add member at lasst
 will sort as asscending 
 and bolllean float integer together  true as `1 false as zero
 but string has to be done diiffrently
@@ -330,3 +330,10 @@ l1.reverse()
 reverse as list
 insert (index,value )
 value will be inserted at given inddex
+pop deletes last element at given index 
+l1.pop(index) by default last
+we can store it value = l1.pop(3 )
+l1.remove(value )
+if valueis not present it will give value error 
+same as list but immutable
+if you try to change it it will give v alue error

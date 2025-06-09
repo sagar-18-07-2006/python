@@ -15,3 +15,12 @@ for i in l1:
 l1.reverse()
 for i in l1:
     print (i)
+l1.pop()
+print(l1) 
+value = l1.pop(3 )
+print(l1)  
+print(value)
+l1.remove(8)
+print(value)
+l1.remove(989)
+print(value)
