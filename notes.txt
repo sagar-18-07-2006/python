@@ -318,3 +318,15 @@ Constructors are special functions that are executed when an object is instantia
 strings are immmutable you can 't vhange them by running a function 
 unill unless 
 string = string.function()
+list and tuples 
+list is a set of container to store set of any value 
+lists are mutable can be index as a string
+#methods
+append add member at lastsort
+will sort as asscending 
+and bolllean float integer together  true as `1 false as zero
+but string has to be done diiffrently
+l1.reverse()
+reverse as list
+insert (index,value )
+value will be inserted at given inddex
