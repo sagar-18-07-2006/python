@@ -338,3 +338,30 @@ if valueis not present it will give value error
 same as list but immutable
 if you try to change it it will give v alue error
 IN LIST THERE IS A FUNCTION CALLED SUM WHICH SUM IT'S values  
+
+dictionary
+marks ={
+    "harry" : 100,
+    "sagar": 100,
+    "darshita":100,
+    "hardik" :100,
+    "kartavya" : 14}
+print(marks,type(marks))
+print(marks[0])   it will give error 
+marks [sagar ]  it is valid \
+
+
+dictionary
+are unordered mutable
+it is indexed (give O(1)time complexity)
+cannot contain duplicate keywords
+methods 
+
+print(marks.items()) 
+give list of key value pair
+
+print(marks.keys())
+give keys in dictionary
+
+print(marks.values())
+give values in dictionary
