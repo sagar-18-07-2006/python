@@ -4,7 +4,11 @@ marks ={
     "darshita":100,
     "hardik" :100,
     "kartavya" : 14}
-print(marks.items())
+# print(marks.items())
 
-print(marks.keys())
-print(marks.values())
+# print(marks.keys())
+# print(marks.values())
+marks.update({"harry": 0})
+print(marks)
+print(marks.get("sagar"))
+print(marks)

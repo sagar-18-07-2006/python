@@ -365,3 +365,31 @@ give keys in dictionary
 
 print(marks.values())
 give values in dictionary
+
+marks.update({"harry": 0})
+it will update  key value if it exiist otherwise add it in dictionary
+| Method                   | What it Does                                                                                                         |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| `clear()`                | Removes all items from the dictionary.                                                                               |
+| `copy()`                 | Returns a shallow copy of the dictionary.                                                                            |
+| `fromkeys()`             | Creates a new dictionary from given keys, with all values set to a specified value.                                  |
+| `get(key)`               | Returns the value for the specified key. If the key doesn’t exist, returns `None` (or a default value if specified). |
+| `items()`                | Returns a view object containing a list of dictionary's `(key, value)` pairs.                                        |
+| `keys()`                 | Returns a view object containing the dictionary’s keys.                                                              |
+| `pop(key)`               | Removes the key and returns its value. If key doesn’t exist, raises a `KeyError`.                                    |
+| `popitem()`              | Removes and returns the last inserted `(key, value)` pair. (Since Python 3.7 — it’s ordered).                        |
+| `setdefault(key, value)` | Returns the value of the key. If key doesn’t exist, adds it with the specified value.                                |
+| `update()`               | Updates the dictionary with elements from another dictionary or key-value pairs.                                     |
+| `values()`               | Returns a view object of all the values in the dictionary.                                                           |
+| Method              | Purpose                                                                                                                                                        |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `__annotations__`   | A special attribute to store variable annotations (type hints) in a dictionary form.                                                                           |
+| `__class__`         | Returns the class/type of the object. For a dictionary, it’s `<class 'dict'>`.                                                                                 |
+| `__class_getitem__` | Supports generic types (like `dict[str, int]`) for type hints, available since Python 3.9.                                                                     |
+| `__contains__(key)` | Called when using the `in` keyword. Example: `'name' in my_dict` calls this internally.                                                                        |
+| `__delattr__(attr)` | Deletes an attribute (used with `del` keyword on object attributes, not typically used with dicts directly).                                                   |
+| `__delitem__(key)`  | Removes a key-value pair using `del my_dict[key]`.                                                                                                             |
+| `__dict__`          | Returns a dictionary representing the object’s writable attributes (for custom objects — not very useful for plain dictionaries since they are already dicts). |
+| `__dir__()`         | Returns a list of valid attributes for the object (what you’re seeing in this list view).                                                                      |
+| `__doc__`           | Returns the documentation string for the object’s class, if present.                                                                                           |
+| `__eq__(other)`     | Checks equality using `==` operator. Compares if two dicts have the same keys and values.                                                                      |
