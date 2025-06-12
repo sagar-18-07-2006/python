@@ -1,3 +1,4 @@
+# d={} empty dictionary
 marks ={
     "harry" : 100,
     "sagar": 100,
@@ -11,4 +12,6 @@ marks ={
 marks.update({"harry": 0})
 print(marks)
 print(marks.get("sagar"))
+print(marks)
+marks.pop("darshita")
 print(marks)

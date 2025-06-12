@@ -393,3 +393,5 @@ it will update  key value if it exiist otherwise add it in dictionary
 | `__dir__()`         | Returns a list of valid attributes for the object (what you’re seeing in this list view).                                                                      |
 | `__doc__`           | Returns the documentation string for the object’s class, if present.                                                                                           |
 | `__eq__(other)`     | Checks equality using `==` operator. Compares if two dicts have the same keys and values.                                                                      |
+marks.pop("darshita")
+deletes darshita key check methodsof dictionary’s
