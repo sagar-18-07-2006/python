@@ -395,3 +395,20 @@ it will update  key value if it exiist otherwise add it in dictionary
 | `__eq__(other)`     | Checks equality using `==` operator. Compares if two dicts have the same keys and values.                                                                      |
 marks.pop("darshita")
 deletes darshita key check methodsof dictionary’s
+📚 Python set Methods (with descriptions)
+Method	Purpose
+add(element)	Adds a single element to the set.
+update(iterable)	Adds multiple elements from an iterable (like list, tuple, set).
+remove(element)	Removes a specified element. Raises KeyError if not found.
+discard(element)	Removes a specified element if present. No error if not found.
+pop()	Removes and returns a random element. Raises KeyError if empty.
+clear()	Removes all elements from the set.
+union(set2, set3,...)	Returns a new set containing all unique elements from all sets.
+intersection(set2,...)	Returns a new set containing elements common to all sets.
+difference(set2,...)	Returns elements in the first set but not in the others.
+symmetric_difference(set2)	Returns elements present in either of the sets, but not both.
+issubset(set2)	Checks if the current set is a subset of set2.
+issuperset(set2)	Checks if the current set is a superset of set2.
+isdisjoint(set2)	Checks if two sets have no elements in common.
+copy()	Returns a shallow copy of the set.
+you cannot have elements repeated
