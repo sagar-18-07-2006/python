@@ -412,3 +412,6 @@ issuperset(set2)	Checks if the current set is a superset of set2.
 isdisjoint(set2)	Checks if two sets have no elements in common.
 copy()	Returns a shallow copy of the set.
 you cannot have elements repeated
+sets are unordered
+no ways to change item in sets
+sets cannot contain   duplicate values 
