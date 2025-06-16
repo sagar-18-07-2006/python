@@ -391,10 +391,6 @@ it will update  key value if it exiist otherwise add it in dictionary
 | `__delitem__(key)`  | Removes a key-value pair using `del my_dict[key]`.                                                                                                             |
 | `__dict__`          | Returns a dictionary representing the object’s writable attributes (for custom objects — not very useful for plain dictionaries since they are already dicts). |
 | `__dir__()`         | Returns a list of valid attributes for the object (what you’re seeing in this list view).                                                                      |
-| `__delattr__(attr)` | Deletes an attribute (used with `del` keyword on object attributes, not typically used with dicts directly).                                                   |
-| `__delitem__(key)`  | Removes a key-value pair using `del my_dict[key]`.                                                                                                             |
-| `__dict__`          | Returns a dictionary representing the object’s writable attributes (for custom objects — not very useful for plain dictionaries since they are already dicts). |
-| `__dir__()`         | Returns a list of valid attributes for the object (what you’re seeing in this list view).                                                                      |
 | `__doc__`           | Returns the documentation string for the object’s class, if present.                                                                                           |
 | `__eq__(other)`     | Checks equality using `==` operator. Compares if two dicts have the same keys and values.                                                                      |
 marks.pop("darshita")
