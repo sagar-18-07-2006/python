@@ -4,3 +4,4 @@ while(n>0):
     nf*=n
     n=n-1
 print(nf)
+print(nf)
