@@ -432,4 +432,10 @@ def avg():
     c=int(input("Enter a number: "))
     avg = (a+b+c)/3
     print(avg)
-avg()# this is function call    
+avg()# this is function call
+default value to a functions   
+def greet(name = "sagar"):
+    print(f"Hello {name} Sir")
+name =input("Enter the boy name to greet: ")
+greet(name)
+greet()
