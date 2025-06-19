@@ -349,6 +349,7 @@ marks ={
 print(marks,type(marks))
 print(marks[0])   it will give error 
 marks [sagar ]  it is valid \
+marks [sagar ]  it is valid \
 
 
 dictionary
@@ -423,3 +424,12 @@ if float and int are same then they will consider as same
 if float and int are same then they will consider as same 
 if float and int are same then they will consider as same 
 if float and int are same then they will consider as same 
+FUNCTION IS SET OF LOGIC GIVEN NAME
+# fuction defination 
+def avg():
+    a=int(input("Enter a number: "))
+    b=int(input("Enter a number: "))
+    c=int(input("Enter a number: "))
+    avg = (a+b+c)/3
+    print(avg)
+avg()# this is function call    
