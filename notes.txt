@@ -441,3 +441,8 @@ greet(name)
 greet()
 Round finction will give value rounded off
 Round(value,no of decimal places want)
+this is the way to choose  a random value
+import random
+import time
+random.seed(time.time())
+computer_choice = random.choice(['s', 'g', 'w'])
