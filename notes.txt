@@ -446,3 +446,7 @@ import random
 import time
 random.seed(time.time())
 computer_choice = random.choice(['s', 'g', 'w'])
+f=open("file.txt","r")
+to open file in read format
+f=open("file.txt","w")
+write mode and if file is not there it will create a file

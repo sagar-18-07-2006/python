@@ -1,0 +1,7 @@
+f=open("file.txt","r")
+data = f.read()
+print(data)
+f.close()
+f=open("myfile.txt","w")
+f.write("write ing in this file")
+f.close()

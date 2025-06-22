@@ -1,6 +1,5 @@
 import random
-import time
-random.seed(time.time())
+
 print('''
 s for Snake 
 g for Gun 
