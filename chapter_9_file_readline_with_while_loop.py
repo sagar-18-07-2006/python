@@ -4,3 +4,5 @@ while(line!= ""):
     print(line)
     line =f.readline()  
 f.close()
+f =open("file.txt",'w')
+f.close()
