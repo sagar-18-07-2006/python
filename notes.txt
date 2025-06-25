@@ -481,5 +481,5 @@ f.close()
 but if you have read lines aldredy than it will read next line 
 read we are reading file
 write will delete all old data in file if exist or create that file  
-append
+append .you will write at the end of file without deleting it s old data but it will not create the file
 update 
