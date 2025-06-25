@@ -450,3 +450,8 @@ f=open("file.txt","r")
 to open file in read format
 f=open("file.txt","w")
 write mode and if file is not there it will create a file
+f=open("file.txt","r")
+lines =f.readlines()
+print(lines)
+f.close()
+give list of each line in text file
