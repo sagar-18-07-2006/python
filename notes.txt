@@ -486,3 +486,6 @@ we can not read while appending the file
 update u at end 
 rb read in binary 
 rt read in text
+you can replace a particular word in a string by replace 
+s.replace(<old>,<new>)
+#syntax
