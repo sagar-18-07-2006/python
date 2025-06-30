@@ -1,6 +1,10 @@
-with open("python.txt","r") as f :
-    if ("python" in f.read().lower()):
-        print(" Python is in this file")
-    else:
-        print(" Python is not in this file")
-        
+found = False
+
+with open("python.txt", "r") as f:
+    for i, line in enumerate(f, start=1):
+        if "python" in line.lower():
+            print(f"'python' is in line {i}")
+            found = True
+
+if not found:
+    print("python is not present")
