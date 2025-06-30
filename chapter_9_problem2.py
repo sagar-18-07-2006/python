@@ -1,25 +1,22 @@
 import random
-
 def game():
-    print("You are playing")
-    score = random.randint(1, 62)
-
-    # Read existing high score (handle empty file case)
-    with open("high-score.txt") as f:
-        highscore = f.read().strip()
-
-    # If file is empty, treat highscore as 0
-    if highscore == "":
-        highscore = 0
+    print("you are playing")
+    score = random.randint(1,62)
+    highscore =None
+    with open("high-score.txt") as f :
+        highscore = f.read()
+    if(highscore==""):
+         highscore=0
     else:
-        highscore = int(highscore)
-
-    print("Your score is", score)
-
-    # Update high score if needed
-    if score > highscore:
-        print("Congratulations! New High Score!")
-        with open("high-score.txt", "w") as f:
+         highscore=int(highscore)
+   
+    print("your score is ",score)
+    if(highscore<score):
+        with open("high-score.txt","w"):
+            
+            
             f.write(str(score))
+        
+        
 
 game()
