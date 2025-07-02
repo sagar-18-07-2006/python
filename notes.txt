@@ -489,3 +489,9 @@ rt read in text
 you can replace a particular word in a string by replace 
 s.replace(<old>,<new>)
 #syntax
+ def getinfo(self):
+        print(f"The language is {self.language}. The salary is {self.salary}")
+    @staticmethod
+    def greet(self):
+        print("you are learning")
+if we define staticmethof=d in class then we don't have to write self
