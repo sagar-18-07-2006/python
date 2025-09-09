@@ -6,8 +6,11 @@ class Employee:
     def __init__(self,a,b,c): #dunder method is called when object is created 
         print('i am creating object')
         self.name =a
+        self.__marks=54
         self.language=b
         self.salary=int(c)
+    def get_marks(self):
+        print(f"the marks is  {self.__marks}")
     def getinfo(self):
         print(f"The language is {self.language}. The salary is {self.salary}")
     @staticmethod
@@ -19,3 +22,5 @@ sagar.getinfo()
 sagar.greet()
 # sagar.getinfo() =Employee.getinfo(sagar)
 print(sagar.language,sagar.salary)
+sagar.get_marks()
+# print(sagar.__marks)
